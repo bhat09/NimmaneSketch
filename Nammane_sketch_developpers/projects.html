@@ -1,46 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nimmane Sketch Developers | Projects</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html"><img class="brand-logo" src="https://dummyimage.com/190x56/b86b2b/ffffff.png&text=NSD+Logo" alt="Nimmane Sketch Developers Logo" /></a>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a class="active" href="projects.html">Projects</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="container">
-        <h1 class="section-title">Our Projects</h1>
-        <p class="lead">Browse project photos and videos using Previous and Next buttons.</p>
-
-        <div class="slider-shell">
-          <button class="control-btn side-btn left-btn" id="prevProject" aria-label="Previous project">&lt;</button>
-          <div class="project-stage" id="projectStage"></div>
-          <button class="control-btn side-btn right-btn" id="nextProject" aria-label="Next project">&gt;</button>
-        </div>
-
-        <article class="project-details card" id="projectDetails"></article>
-        <article class="feedback-card card" id="feedbackDetails"></article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nimmane Sketch Developers | Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><img
+            class="brand-logo logo"
+            src="mane_logo.png"
+            alt="Nimmane Sketch Developers Logo"
+        /></a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
       </div>
-    </section>
-  </main>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container">© 2026 Nimmane Sketch Developers. All rights reserved.</div>
-  </footer>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Our Projects</h1>
+          <p class="lead">
+            Browse project photos and videos using Previous and Next buttons.
+          </p>
 
-  <script src="script.js"></script>
-</body>
+          <div class="slider-shell">
+            <button
+              class="control-btn side-btn left-btn"
+              id="prevProject"
+              aria-label="Previous project"
+            >
+              &lt;
+            </button>
+            <div class="project-stage" id="projectStage"></div>
+            <button
+              class="control-btn side-btn right-btn"
+              id="nextProject"
+              aria-label="Next project"
+            >
+              &gt;
+            </button>
+          </div>
+
+          <article class="project-details card" id="projectDetails"></article>
+          <article class="feedback-card card" id="feedbackDetails"></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        ï¿½ 2026 Nimmane Sketch Developers. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
